@@ -153,7 +153,7 @@ img {
   padding: 200px 0;
 
   text-align: center;
-  /* background-color: #2F303A; */
+  background-color: #2F303A;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.8),
@@ -161,10 +161,10 @@ img {
     ),
     url(..//images/bg.jpg);
 
-  /* background-image: url(../images/bg.jpg);
+   
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:  center; */
+    background-position:  center;
 }
 .hero .hero-title {
   margin-top: 0;
@@ -282,7 +282,7 @@ button.hero-button {
   /* material shadow v1 */
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  background: rgb(255, 255, 255);
+   background: rgb(255, 255, 255);
 }
 .team .team-list .item:not(:last-child) {
   display: block;
