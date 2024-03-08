@@ -349,7 +349,6 @@ button.hero-button {
 .clients-list {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .client-link {
@@ -375,6 +374,14 @@ button.hero-button {
   padding: 60px 0;
   background-color: #2f303a;
 }
+.footer-blocks {
+  display: flex;
+  justify-content: flex-start;
+}
+.cotact-info {
+  margin-right: 70px;
+}
+
 .footer .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -408,6 +415,37 @@ button.hero-button {
 .footer-contact-list .link:hover,
 .footer-contact-list .link:focus {
   color: var(--accent-color);
+}
+
+.footer-list {
+  display: flex;
+}
+.footer-item:not(:last-child) {
+  margin-right: 10px;
+  justify-content: center;
+}
+.footer-social-link {
+  display:inline-flex;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill:#FFFFFF;
+  background-color:  rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+
+.footer-social-link:hover{
+  background-color: var(--accent-color);
+}
+.footer-subheader {
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 /* portfolio - nav */
