@@ -126,14 +126,12 @@ img {
   fill: var(--primary-text-color);
 }
 
-.icon-mail:hover,
-.icon-mail:focus,
-.icon-mobile:hover,
-.icon-mobile:focus {
-  fill: var(--accent-color);
+.icon-mail,
+.icon-mobile {
+  fill: currentColor;
 }
 
-.header-contact-list .header-mail-link,
+.header-mail-link,
 .header-tel-link {
   color: var(--primary-text-color);
   font-size: 14px;
