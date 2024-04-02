@@ -382,15 +382,14 @@ button.hero-button {
 }
 .footer-blocks {
   display: flex;
-  align-items: center;
- 
+}
+.footer-social {
+  padding-top: 12px;
 }
 
 .contact-info {
   margin-right: 70px;
 }
-
-
 
 .footer .footer-logo {
   display: block;
